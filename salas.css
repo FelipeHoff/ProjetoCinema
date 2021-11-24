@@ -1,0 +1,17 @@
+body{
+    flex-direction: row;
+    display: flex;
+    justify-content: space-between;
+    width: 600px;
+    margin: 350px 510px;
+    background-color: #d4cbcb;
+}
+.sala{
+    border: 1px solid black;
+    padding: 40px;
+    width: 160px;
+    text-align: center;
+    border-radius: 3px;
+    background-color: #c5b25b;
+    font-family: 'Roboto', sans-serif;
+}

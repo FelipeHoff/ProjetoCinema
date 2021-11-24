@@ -1,0 +1,76 @@
+.pai-das-cadeiras{    
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.cadeiras{
+    background-color: #008000;
+    border: 1px solid black;
+    text-align: center;
+    color: white;
+    width: 60px;
+    margin: 20px;
+    height: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 3px;
+    box-shadow: 0px 1px 2px black;
+    user-select: none;
+    font-family: 'Roboto', sans-serif;
+}
+.tela{
+    background-color: orange;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    color: white;
+    text-align: center;
+    margin-top: 20px;
+    border-bottom-left-radius: 3px;
+    font-family: 'Roboto', sans-serif;
+}
+.cadeiras:hover{
+    box-shadow: 0px 0px 4px #00000080;
+}
+.marcado{
+    background-color: rgba(83, 15, 83, 0.657);
+}
+.salaDeCinema{
+    background-color: #888888;
+    width: 1300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 55px;
+    margin-top: 35px;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+    border-top: 1px solid black;
+    border-left: 1px solid black;
+}
+.Assento {
+    width: 210px;
+    background-color: #97b108;
+    margin-top: 35px;
+    font-size: 30px;
+    padding: 4px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+    border: 1px solid black;
+}
+.layoutVenda {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    font-family: 'Roboto', sans-serif;
+}
+.vendida{
+    background-color: red;
+}
+body{
+    background-color: #d4cbcb;
+}
